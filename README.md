@@ -6,3 +6,5 @@ A top execise about form.
 [Visit NOW!](https://mdahamshi.github.io/top-landing-page/)
 
 ![screenshot](./sc.png)
+
+![screenshot](./sc2.png)
