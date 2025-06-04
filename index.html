@@ -25,7 +25,7 @@
     </div>
 
     <div class="signup-form">
-        <div>
+        <div class="opening">
             <p>This is not a real online service! Youknow you need something
                 like this in your life to help you relaize your deepest deams.
                 Sign up now to get started
@@ -36,13 +36,49 @@
         </div>
         <form action="#" method="get">
             <div class="form-body">
+                <h2>Lets's do this!</h2>
                 <div class="form-row">
-                    <label for="first-name" class="capital">First Name</label>
+                    <div class="form-col">
+                        <label for="first-name" class="capital">First Name</label>
+                        <input type="text" id="first-name" name="first-name">
+                    </div>
+
+                    <div class="form-col">
+                        <label for="last-name" class="capital">Last Name</label>
+                        <input type="text" id="last-name" name="last-name">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-col">
+                        <label for="email" class="capital">email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-col">
+                        <label for="phone" class="capital">Phone Number</label>
+                        <input type="number" id="phone" name="phone">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-col">
+                        <label for="password" class="capital">Password</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+
+                    <div class="form-col">
+                        <label for="confirm" class="capital" >Confirm Password</label>
+                        <input type="password" id="confirm" name="confirm" required>
+                    </div>
                 </div>
             </div>
 
-            <button>Create Account</button>
-            <p>Already have an account? <a href="#">Log in</a></p>
+            <div class="form-submit">
+                <button>Create Account</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
+
+            </div>
         </form>
     </div>
 
