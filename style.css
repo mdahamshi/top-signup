@@ -78,6 +78,7 @@ body {
     padding: 10px 34px;
     border-radius: 6px;
     font-size: 18px;
+    border: none;
     /* box-shadow: #D6D9Dc; */
 }
 .form-submit * {
@@ -142,6 +143,7 @@ body {
 }
 .form-submit a {
     color: var(--sb-theme-color);
+    text-decoration: none;
 }
 .form-submit p {
     font-weight: 600;
